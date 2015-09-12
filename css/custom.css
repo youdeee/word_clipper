@@ -1,0 +1,66 @@
+/**
+ * Chrome Extension Twitter Bootstrap 3 Template
+ * Custom CSS
+ *
+ */
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+.body-wrapper {
+    margin: 20px 40px;
+}
+
+.title-wrapper {
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.save-button {
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+
+#download {
+    margin-left: 32px;
+    margin-bottom: 6px;
+}
+
+.table-content {
+    width: 1000px;
+}
+
+.setting-content {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.td-padding {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.removed {
+    display: none;
+}
+
+.value {
+    width: 800px;
+}

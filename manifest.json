@@ -1,0 +1,28 @@
+{
+    "name": "Word Clipper",
+    "version": "0.0.1",
+    "manifest_version": 2,
+
+    "description": "はじめての拡張！",
+
+    "permissions": [
+        "storage", "http://*/*", "tabs"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*"],
+            "js": ["background.js"]
+        }
+    ],
+
+    "options_page": "options.html",
+
+    "browser_action": {
+        "default_icon": "ud.png",
+        "default_title": "Word Clipper"
+    },
+
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+
+}

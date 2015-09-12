@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <div class="table-content float-left">
+        <div class="title-wrapper">
+          <span class="title">保存した単語です</span><button class="btn save-button btn-primary">Save</button><a id="download" target="_blank" class="btn btn-default">ファイルをダウンロードする</a>
+        </div>
+        <table class="talbe table-bordered">
+          <thead>
+            <tr><th class="td-padding"></th><th class="td-padding">Word</th><th>Meaning</th></tr>
+          </thead>
+          <tbody id="word">
+            <tr><td class="td-padding"></td><td class="td-padding">word</td><td>meaning</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="setting-content float-right">
+        <div>設定</div>
+      </div>
+    </div>
+
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
